@@ -53,7 +53,7 @@ def getNearbyVenues(zipcodes, latitudes, longitudes, radius=500):
     return(nearby_venues)
 
 
-    def return_most_common_venues(row, num_top_venues):
+def return_most_common_venues(row, num_top_venues):
     row_categories = row.iloc[1:]
     row_categories_sorted = row_categories.sort_values(ascending=False)
     
