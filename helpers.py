@@ -12,7 +12,8 @@ def get_category_type(row):
 
 
 
-def getNearbyVenues(zipcodes, latitudes, longitudes, radius=500):
+def getNearbyVenues(CLIENT_ID, CLIENT_SECRET,VERSION,
+    zipcodes, latitudes, longitudes, radius=500):
     
     venues_list=[]
     for zipcode, lat, lng in zip(zipcodes, latitudes, longitudes):
