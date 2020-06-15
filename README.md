@@ -1,4 +1,4 @@
-*Abstract: random forest regressions for Zillow condo Price/Rents based on Foursquare nearby venues as tree input features.*
+*Abstract: random forest regressions for Zillow condo Price/Rents based on Foursquare venues as tree input features.*
 
 # Problem
 Real estate risk management needs to be focused on a problem of predicting the market value of properties as they are unique and difficult to actively manage, i.e. buy and sell. The value of real estate assets should be an integral function of some internal and external features. In short, internal features are endogenous to the property, for example design of windows or a number of rooms. External features are exogenous, for example surrounding shops or transportation hubs. 
